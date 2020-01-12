@@ -29,4 +29,13 @@ Stack.prototype.pop = function() {
     return value;
 }
 
+Stack.prototype.contains = function (value) {
+    return Object.values(this.storage).includes(value);
+}
+
+// returns a number to Leave with that value
+Stack.prototype.positionToLeave = function(value) {
+    return this.count - Object.values(this.storage).indexOf(value);
+}
+
 module.exports = Stack;

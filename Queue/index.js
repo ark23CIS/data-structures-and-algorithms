@@ -4,7 +4,7 @@ var Queue = function() {
     this.tail = 0;
 }
 
-// adding element
+// adding element 
 Queue.prototype.enqueue = function(value) {
     this.storage[this.tail++] = value;
     return this.size();

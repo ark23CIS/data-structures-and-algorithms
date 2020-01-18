@@ -3,7 +3,7 @@
 //push(value) adds value and returns size
 //size() returns size
 
-var Stack = function() {
+function Stack() {
     this.storage = {};
     this.count = 0;
 }

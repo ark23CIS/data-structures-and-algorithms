@@ -122,3 +122,5 @@ function Node(value) {
     }
     return newTail;
   };
+
+  module.exports = LinkedList;

@@ -1,0 +1,25 @@
+{
+  "name": "data-structures-and-algorithms",
+  "version": "1.0.0",
+  "description": "training ds and algorithms",
+  "main": "index.js",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ark23CIS/data-structures-and-algorithms.git"
+  },
+  "author": "Daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ark23CIS/data-structures-and-algorithms/issues"
+  },
+  "homepage": "https://github.com/ark23CIS/data-structures-and-algorithms#readme",
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
+}
